@@ -15,16 +15,12 @@ module.exports = {
       {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'},
     ],
     script: [
-      { src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js' },
-      { src: 'https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js' }
+      {src: '/libs/jquery/jquery-2.2.4.min.js' , ssr: false},
+      {src: '/libs/bootstrap/popper.min.js', ssr: false},
+      {src: '/libs/bootstrap/bootstrap.min.js', ssr: false},
+      {src: '/libs/others/plugins.js',ssr: false},
+      {src: '/libs/active.js',ssr: false}
     ],
-    // script: [
-    //   {src: '/assets/js/bootstrap/bootstrap.min.js'},
-    //   {src: '/assets/js/jquery/jquery-2.2.4.min.js'},
-    //   {src: '/assets/js/bootstrap/popper.min.js'},
-    //   {src: '/assets/js/others/plugins.js'},
-    //   {src: '/assets/js/active.js'}
-    // ],
   },
   /*
   ** Customize the progress-bar color
