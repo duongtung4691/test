@@ -6,7 +6,7 @@
           <div class="footer-content">
             <!-- Logo Area Start -->
             <div class="footer-logo-area text-center">
-              <a href="#" class="yummy-logo">Yummy Blog</a>
+              <a href="#" class="yummy-logo">Green House</a>
             </div>
             <!-- Menu Area Start -->
             <nav class="navbar navbar-expand-lg">

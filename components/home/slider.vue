@@ -1,234 +1,122 @@
 <template>
-  <section class="welcome-post-sliders owl-carousel owl-loaded owl-drag">
-    <div class="owl-stage-outer">
-      <div class="owl-stage"
-           style="transform: translate3d(-1360px, 0px, 0px); transition: all 0s ease 0s; width: 4420px;">
-        <div class="owl-item cloned" style="width: 330px; margin-right: 10px;">
-          <div class="welcome-single-slide">
-            <!-- Post Thumb -->
-            <img src="../../assets/img/bg-img/slide-2.jpg" alt="">
-            <!-- Overlay Text -->
-            <div class="project_title">
-              <div class="post-date-commnents d-flex">
-                <a href="#">May 19, 2017</a>
-                <a href="#">5 Comment</a>
-              </div>
-              <a href="#">
-                <h5>“I’ve Come and I’m Gone”: A Tribute to Istanbul’s Street</h5>
-              </a>
-            </div>
-          </div>
+  <section class="welcome-post-sliders owl-carousel">
+
+    <!-- Single Slide -->
+    <div class="welcome-single-slide">
+      <!-- Post Thumb -->
+      <img src="../../assets/img/bg-img/slide-1.jpg" alt="">
+      <!-- Overlay Text -->
+      <div class="project_title">
+        <div class="post-date-commnents d-flex">
+          <a href="#">May 19, 2017</a>
+          <a href="#">5 Comment</a>
         </div>
-        <div class="owl-item cloned" style="width: 330px; margin-right: 10px;">
-          <div class="welcome-single-slide">
-            <!-- Post Thumb -->
-            <img src="../../assets/img/bg-img/slide-3.jpg" alt="">
-            <!-- Overlay Text -->
-            <div class="project_title">
-              <div class="post-date-commnents d-flex">
-                <a href="#">May 19, 2017</a>
-                <a href="#">5 Comment</a>
-              </div>
-              <a href="#">
-                <h5>“I’ve Come and I’m Gone”: A Tribute to Istanbul’s Street</h5>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="owl-item cloned" style="width: 330px; margin-right: 10px;">
-          <div class="welcome-single-slide">
-            <!-- Post Thumb -->
-            <img src="../../assets/img/bg-img/slide-4.jpg" alt="">
-            <!-- Overlay Text -->
-            <div class="project_title">
-              <div class="post-date-commnents d-flex">
-                <a href="#">May 19, 2017</a>
-                <a href="#">5 Comment</a>
-              </div>
-              <a href="#">
-                <h5>“I’ve Come and I’m Gone”: A Tribute to Istanbul’s Street</h5>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="owl-item cloned" style="width: 330px; margin-right: 10px;">
-          <div class="welcome-single-slide">
-            <!-- Post Thumb -->
-            <img src="../../assets/img/bg-img/slide-4.jpg" alt="">
-            <!-- Overlay Text -->
-            <div class="project_title">
-              <div class="post-date-commnents d-flex">
-                <a href="#">May 19, 2017</a>
-                <a href="#">5 Comment</a>
-              </div>
-              <a href="#">
-                <h5>“I’ve Come and I’m Gone”: A Tribute to Istanbul’s Street</h5>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="owl-item active" style="width: 330px; margin-right: 10px;">
-          <div class="welcome-single-slide">
-            <!-- Post Thumb -->
-            <img src="../../assets/img/bg-img/slide-1.jpg" alt="">
-            <!-- Overlay Text -->
-            <div class="project_title">
-              <div class="post-date-commnents d-flex">
-                <a href="#">May 19, 2017</a>
-                <a href="#">5 Comment</a>
-              </div>
-              <a href="#">
-                <h5>“I’ve Come and I’m Gone”: A Tribute to Istanbul’s Street</h5>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="owl-item active" style="width: 330px; margin-right: 10px;">
-          <div class="welcome-single-slide">
-            <!-- Post Thumb -->
-            <img src="../../assets/img/bg-img/slide-2.jpg" alt="">
-            <!-- Overlay Text -->
-            <div class="project_title">
-              <div class="post-date-commnents d-flex">
-                <a href="#">May 19, 2017</a>
-                <a href="#">5 Comment</a>
-              </div>
-              <a href="#">
-                <h5>“I’ve Come and I’m Gone”: A Tribute to Istanbul’s Street</h5>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="owl-item active" style="width: 330px; margin-right: 10px;">
-          <div class="welcome-single-slide">
-            <!-- Post Thumb -->
-            <img src="../../assets/img/bg-img/slide-3.jpg" alt="">
-            <!-- Overlay Text -->
-            <div class="project_title">
-              <div class="post-date-commnents d-flex">
-                <a href="#">May 19, 2017</a>
-                <a href="#">5 Comment</a>
-              </div>
-              <a href="#">
-                <h5>“I’ve Come and I’m Gone”: A Tribute to Istanbul’s Street</h5>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="owl-item active" style="width: 330px; margin-right: 10px;">
-          <div class="welcome-single-slide">
-            <!-- Post Thumb -->
-            <img src="../../assets/img/bg-img/slide-4.jpg" alt="">
-            <!-- Overlay Text -->
-            <div class="project_title">
-              <div class="post-date-commnents d-flex">
-                <a href="#">May 19, 2017</a>
-                <a href="#">5 Comment</a>
-              </div>
-              <a href="#">
-                <h5>“I’ve Come and I’m Gone”: A Tribute to Istanbul’s Street</h5>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="owl-item" style="width: 330px; margin-right: 10px;">
-          <div class="welcome-single-slide">
-            <!-- Post Thumb -->
-            <img src="../../assets/img/bg-img/slide-4.jpg" alt="">
-            <!-- Overlay Text -->
-            <div class="project_title">
-              <div class="post-date-commnents d-flex">
-                <a href="#">May 19, 2017</a>
-                <a href="#">5 Comment</a>
-              </div>
-              <a href="#">
-                <h5>“I’ve Come and I’m Gone”: A Tribute to Istanbul’s Street</h5>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="owl-item cloned" style="width: 330px; margin-right: 10px;">
-          <div class="welcome-single-slide">
-            <!-- Post Thumb -->
-            <img src="../../assets/img/bg-img/slide-1.jpg" alt="">
-            <!-- Overlay Text -->
-            <div class="project_title">
-              <div class="post-date-commnents d-flex">
-                <a href="#">May 19, 2017</a>
-                <a href="#">5 Comment</a>
-              </div>
-              <a href="#">
-                <h5>“I’ve Come and I’m Gone”: A Tribute to Istanbul’s Street</h5>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="owl-item cloned" style="width: 330px; margin-right: 10px;">
-          <div class="welcome-single-slide">
-            <!-- Post Thumb -->
-            <img src="../../assets/img/bg-img/slide-2.jpg" alt="">
-            <!-- Overlay Text -->
-            <div class="project_title">
-              <div class="post-date-commnents d-flex">
-                <a href="#">May 19, 2017</a>
-                <a href="#">5 Comment</a>
-              </div>
-              <a href="#">
-                <h5>“I’ve Come and I’m Gone”: A Tribute to Istanbul’s Street</h5>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="owl-item cloned" style="width: 330px; margin-right: 10px;">
-          <div class="welcome-single-slide">
-            <!-- Post Thumb -->
-            <img src="../../assets/img/bg-img/slide-3.jpg" alt="">
-            <!-- Overlay Text -->
-            <div class="project_title">
-              <div class="post-date-commnents d-flex">
-                <a href="#">May 19, 2017</a>
-                <a href="#">5 Comment</a>
-              </div>
-              <a href="#">
-                <h5>“I’ve Come and I’m Gone”: A Tribute to Istanbul’s Street</h5>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="owl-item cloned" style="width: 330px; margin-right: 10px;">
-          <div class="welcome-single-slide">
-            <!-- Post Thumb -->
-            <img src="../../assets/img/bg-img/slide-4.jpg" alt="">
-            <!-- Overlay Text -->
-            <div class="project_title">
-              <div class="post-date-commnents d-flex">
-                <a href="#">May 19, 2017</a>
-                <a href="#">5 Comment</a>
-              </div>
-              <a href="#">
-                <h5>“I’ve Come and I’m Gone”: A Tribute to Istanbul’s Street</h5>
-              </a>
-            </div>
-          </div>
-        </div>
+        <a href="#">
+          <h5>“I’ve Come and I’m Gone”: A Tribute to Istanbul’s Street</h5>
+        </a>
       </div>
     </div>
-    <div class="owl-nav">
-      <div class="owl-prev"></div>
-      <div class="owl-next"></div>
+
+    <!-- Single Slide -->
+    <div class="welcome-single-slide">
+      <!-- Post Thumb -->
+      <img src="../../assets/img/bg-img/slide-2.jpg" alt="">
+      <!-- Overlay Text -->
+      <div class="project_title">
+        <div class="post-date-commnents d-flex">
+          <a href="#">May 19, 2017</a>
+          <a href="#">5 Comment</a>
+        </div>
+        <a href="#">
+          <h5>“I’ve Come and I’m Gone”: A Tribute to Istanbul’s Street</h5>
+        </a>
+      </div>
     </div>
-    <div class="owl-dots">
-      <div class="owl-dot active"><span></span></div>
-      <div class="owl-dot"><span></span></div>
+
+    <!-- Single Slide -->
+    <div class="welcome-single-slide">
+      <!-- Post Thumb -->
+      <img src="../../assets/img/bg-img/slide-3.jpg" alt="">
+      <!-- Overlay Text -->
+      <div class="project_title">
+        <div class="post-date-commnents d-flex">
+          <a href="#">May 19, 2017</a>
+          <a href="#">5 Comment</a>
+        </div>
+        <a href="#">
+          <h5>“I’ve Come and I’m Gone”: A Tribute to Istanbul’s Street</h5>
+        </a>
+      </div>
     </div>
+
+    <!-- Single Slide -->
+    <div class="welcome-single-slide">
+      <!-- Post Thumb -->
+      <img src="../../assets/img/bg-img/slide-4.jpg" alt="">
+      <!-- Overlay Text -->
+      <div class="project_title">
+        <div class="post-date-commnents d-flex">
+          <a href="#">May 19, 2017</a>
+          <a href="#">5 Comment</a>
+        </div>
+        <a href="#">
+          <h5>“I’ve Come and I’m Gone”: A Tribute to Istanbul’s Street</h5>
+        </a>
+      </div>
+    </div>
+
+    <!-- Single Slide -->
+    <div class="welcome-single-slide">
+      <!-- Post Thumb -->
+      <img src="../../assets/img/bg-img/slide-4.jpg" alt="">
+      <!-- Overlay Text -->
+      <div class="project_title">
+        <div class="post-date-commnents d-flex">
+          <a href="#">May 19, 2017</a>
+          <a href="#">5 Comment</a>
+        </div>
+        <a href="#">
+          <h5>“I’ve Come and I’m Gone”: A Tribute to Istanbul’s Street</h5>
+        </a>
+      </div>
+    </div>
+
   </section>
 </template>
 
 <script>
+    export default {
+        name: "slider",
+        mounted() {
+            $(".welcome-post-sliders").owlCarousel({
+                items: 4,
+                loop: true,
+                autoplay: true,
+                smartSpeed: 1500,
+                margin: 10,
+                nav: true,
+                navText: ['', ''],
+                responsive: {
+                    320: {
+                        items: 1
+                    },
+                    576: {
+                        items: 2
+                    },
+                    992: {
+                        items: 3
+                    },
+                    1200: {
+                        items: 4
+                    }
+                }
+            })
+        }
+    }
 
 </script>
 
-<style scoped>
+<style scoped lang="scss">
   .welcome-single-slide {
     position: relative;
     z-index: 1;
@@ -260,6 +148,7 @@
     bottom: 0;
   }
 
+
   .welcome-single-slide .post-date-commnents a {
     font-size: 14px;
     font-weight: 400;
@@ -268,6 +157,7 @@
     z-index: 1;
     margin-bottom: 10px;
   }
+
 
   .welcome-single-slide .post-date-commnents a:hover {
     color: rgba(255, 255, 255, 0.9);
@@ -295,24 +185,56 @@
     z-index: 1;
   }
 
-  .welcome-post-sliders .owl-prev {
-    position: absolute;
-    width: 10%;
-    background-color: transparent;
-    height: 100%;
-    top: 0;
-    left: 0;
-    cursor: url(../../assets/img/core-img/back.png), auto !important;
-    z-index: 9;
+  .welcome-post-sliders {
+    ::v-deep {
+      .owl-prev, .owl-next ,.owl-next:focus,.owl-prev:focus{
+        border: none !important;
+        outline: none !important;
+      }
+    }
   }
 
-  .welcome-post-sliders .owl-next {
-    position: absolute;
-    width: 10%;
-    background-color: transparent;
-    height: 100%;
-    top: 0;
-    right: 0;
-    cursor: url(../../assets/img/core-img/next.png), auto !important;
+  .welcome-post-sliders {
+    ::v-deep {
+      .owl-prev {
+        position: absolute;
+        width: 10%;
+        background-color: transparent;
+        height: 100%;
+        top: 0;
+        left: 0;
+        /*cursor: url(../../assets/img/core-img/back.png), auto !important;*/
+        z-index: 9;
+      }
+    }
+  }
+
+  .welcome-post-sliders {
+    ::v-deep {
+      .owl-next {
+        position: absolute;
+        width: 10%;
+        width: 10%;
+        background-color: transparent;
+        height: 100%;
+        top: 0;
+        right: 0;
+        /*cursor: url(../../assets/img/core-img/next.png), auto !important;*/
+      }
+    }
+  }
+
+  #scrollUp {
+    bottom: 55px;
+    font-size: 14px;
+    right: 50%;
+    width: 30px;
+    background-color: #fc6c3f;
+    color: #fff;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 50%;
+    margin-right: -15px;
   }
 </style>

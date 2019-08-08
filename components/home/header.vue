@@ -5,7 +5,7 @@
         <!-- Logo Area Start -->
         <div class="col-12">
           <div class="logo_area text-center">
-            <a href="#" class="yummy-logo">Yummy Blog</a>
+            <a href="#" class="yummy-logo">Green House</a>
           </div>
         </div>
       </div>
@@ -56,7 +56,12 @@
 
 <script>
     export default {
-        name: "body"
+        name: "GHHeader",
+        mounted() {
+            $(".searchBtn").on('click', function () {
+                $(".search-hidden-form").toggleClass("search-form-open");
+            });
+        }
     }
 </script>
 

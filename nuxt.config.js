@@ -1,3 +1,5 @@
+const webpack = require("webpack");
+
 module.exports = {
   mode: 'universal',
   /*
@@ -14,13 +16,6 @@ module.exports = {
     link: [
       {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'},
     ],
-    script: [
-      {src: '/libs/jquery/jquery-2.2.4.min.js' , ssr: false},
-      {src: '/libs/bootstrap/popper.min.js', ssr: false},
-      {src: '/libs/bootstrap/bootstrap.min.js', ssr: false},
-      {src: '/libs/others/plugins.js',ssr: false},
-      {src: '/libs/active.js',ssr: false}
-    ],
   },
   /*
   ** Customize the progress-bar color
@@ -34,10 +29,10 @@ module.exports = {
     '@/assets/css/others/animate.css',
     '@/assets/css/others/font-awesome.min.css',
     '@/assets/css/others/meanmenu.min.css',
-    '@/assets/css/others/owl.carousel.min.css',
+    // '@/assets/css/others/owl.carousel.min.css',
     '@/assets/css/others/pe-icon-7-stroke.css',
     '@/assets/css/responsive/responsive.css',
-    // '@/assets/css/style.css'
+    '@/assets/css/style.css'
   ],
   /*
   ** Plugins to load before mounting the App
@@ -68,7 +63,14 @@ module.exports = {
     /*
     ** You can extend webpack config here
     */
-    vendor:['vue-notification','jquery'],
+    vendor: ["jquery", "vue-notification"],
+    plugins: [
+      new webpack.ProvidePlugin({
+        $: "jquery",
+        jQuery: 'jquery',
+        'window.jQuery': 'jquery'
+      })
+    ],
     extend(config, ctx) {
     }
   }
