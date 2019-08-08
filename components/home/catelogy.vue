@@ -38,8 +38,19 @@
 </template>
 
 <script>
+
     export default {
-        name: "catelogy"
+        name: "catelogy",
+        mounted() {
+            // console.log(this.$WOW)
+            if ($.fn.init) {
+                 this.$WOW.init();
+            }
+// :: 10.0 matchHeight Active JS
+            if ($.fn.matchHeight) {
+                $('.item').matchHeight();
+            }
+        }
     }
 </script>
 
