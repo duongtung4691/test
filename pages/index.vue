@@ -1,12 +1,27 @@
 <template>
+  <div>
+<!--  <div id="preloader">-->
+<!--    <div class="yummy-load"></div>-->
+<!--  </div>-->
 
+
+  <slider />
+  <catelogy />
+  <FBlog/>
+  </div>
 </template>
 
 <script>
     import Logo from '~/components/Logo.vue'
+    import slider from  '~/components/home/slider.vue'
+    import catelogy from  '~/components/home/catelogy.vue'
+    import FBlog from  '~/components/home/FBlog.vue'
+    // import Sidebar from  '~/components/home/Sidebar.vue'
+
+
     export default {
         components: {
-            Logo
+            Logo, slider, catelogy, FBlog
         },
         mounted() {
             var method;

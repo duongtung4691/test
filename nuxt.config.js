@@ -32,7 +32,8 @@ module.exports = {
     // '@/assets/css/others/owl.carousel.min.css',
     '@/assets/css/others/pe-icon-7-stroke.css',
     '@/assets/css/responsive/responsive.css',
-    '@/assets/css/style.css'
+    '@/assets/css/default.css',
+    // '@/assets/css/style.css'
   ],
   /*
   ** Plugins to load before mounting the App

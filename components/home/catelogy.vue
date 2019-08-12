@@ -2,7 +2,8 @@
   <section class="categories_area clearfix" id="about">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-md-6 col-lg-4">
+        <nuxt-link tag="div" class="col-12 col-md-6 col-lg-4" to="/food">
+
           <div class="single_catagory wow fadeInUp" data-wow-delay=".3s">
             <img src="../../assets/img/catagory-img/1.jpg" alt="">
             <div class="catagory-title">
@@ -11,7 +12,8 @@
               </a>
             </div>
           </div>
-        </div>
+
+      </nuxt-link>
         <div class="col-12 col-md-6 col-lg-4">
           <div class="single_catagory wow fadeInUp" data-wow-delay=".6s">
             <img src="../../assets/img/catagory-img/2.jpg" alt="">
@@ -55,9 +57,6 @@
 </script>
 
 <style scoped>
-  *{
-    padding: 0
-  }
   .categories_area {
     padding: 80px 0 50px 0;
   }
@@ -83,6 +82,7 @@
 
   .single_catagory img {
     border-radius: 20px;
+    max-width: 100%;
   }
   .single_catagory:hover .catagory-title {
     background-color: #fc6c3f;
@@ -90,9 +90,7 @@
   .single_catagory:hover .catagory-title a > h5 {
     color: #fff;
   }
-  img{
-    max-width: 100%;
-  }
+
   .catagory-title a > h5 {
     margin-bottom: 0;
     line-height: 50px;
@@ -107,4 +105,5 @@
     font-weight: 500;
     outline: none;
   }
+
 </style>
