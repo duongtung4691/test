@@ -23,7 +23,7 @@
     "jquery.counterup": "^2.1.0",
     "morgan": "^1.9.1",
     "mysql": "^2.17.1",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "nuxt": "^2.0.0",
     "nuxt-fontawesome": "^0.4.0",
     "owl.carousel": "^2.3.4",
